@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container-wrap {
+  max-width: 580px;
+  box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.75);
+padding: 50px;
+margin: 55px auto 0;
+}
+.month-calculate {
+  margin: 0px 25px;
+}
+.calculate-wrap{
+  width: 140px;
+}
+.calculate-input .input-wrap{
+  padding: 10px 14px;
+  border-radius: 7px;
+  font-size: 23px;
+  font-weight: bold;
+}
+.calculate-btn-wrap {
+  border-bottom: 1px solid #b7b1b1;
+  margin: 0;
+  padding: 42px 0 0;
+}
+.calculate-btn-wrap .calculate-btn {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 15px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.calculate-btn-wrap svg{
+ width: 50px !important;
+ height: 50px !important;
+ background-color: #ffffff;
+}
+
+.age-info-wrap {
+  padding: 25px 0 0;
+  font-size: 54px;
+  text-align: left;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.age-info {
+  color: darkorchid;
+}
+
+
